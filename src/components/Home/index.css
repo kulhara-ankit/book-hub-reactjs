@@ -1,6 +1,10 @@
 .home-container {
   min-height: 100vh;
   width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .light-theme {
   background-color: #ffffff;
@@ -17,8 +21,11 @@
 .dark-theme-text {
   color: #f9f9f9;
 }
-.slider-theme-light {
+/* .slider-theme-light {
   background-color: #979a9a;
+} */
+.slider-theme-light {
+  background-color: #ffffff;
 }
 .responsive-home {
   height: 100%;
@@ -39,18 +46,21 @@
 }
 .heading {
   font-family: 'Roboto';
-  font-size: 24px;
+  font-size: 40px;
+  font-weight: 800;
 }
 .description {
   font-family: 'Roboto';
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 25px;
+  /* line-height: 1.5; */
+  font-weight: 600;
 }
 .top-rated-books-find-books {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .top-rated-books-find-books {
@@ -90,7 +100,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  padding: 20px;
+  padding: 40px;
   margin-top: 32px;
 }
 @media screen and (max-width: 768px) {
@@ -136,8 +146,9 @@
 }
 
 .slick-item-cover-pic {
-  height: 150px;
-  width: 80%;
+  height: 200px;
+  width: 60%;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .slick-item-cover-pic {

@@ -169,7 +169,7 @@ class BookDetails extends Component {
           const {isDarkTheme} = value
           const bgColor = isDarkTheme ? 'dark-theme' : 'light-theme'
           return (
-            <div className={`bookdetails-container ${bgColor}`}>
+            <div className={`book-details-container ${bgColor}`}>
               <Header />
               <div className={`responsive-container ${bgColor}`}>
                 {this.renderBookDetailsBasedOnApiStatus()}

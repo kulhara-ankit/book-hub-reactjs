@@ -270,6 +270,7 @@
 }
 .text-links {
   text-decoration: none;
+  margin-bottom: 20px;
 }
 .book-shelf-title {
   font-family: 'Roboto';
